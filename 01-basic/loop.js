@@ -21,3 +21,11 @@ let dan=7;
 for (let i=1; i<=9; i++){
     console.log(`${dan}*${i}=${dan*i}`);
 }
+
+let y=0;
+for (let i=1; i<=100; i++){
+    if (i%2===0){
+        y+=i;
+    }
+}
+console.log(y);
